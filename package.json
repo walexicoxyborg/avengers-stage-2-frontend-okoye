@@ -1,0 +1,22 @@
+{
+  "name": "avengers-stage-2-frontend-okoye",
+  "version": "1.0.0",
+  "description": "HGNi7",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yinkash100/avengers-stage-2-frontend-okoye.git"
+  },
+  "author": "Team-avengers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yinkash100/avengers-stage-2-frontend-okoye/issues"
+  },
+  "homepage": "https://github.com/Yinkash100/avengers-stage-2-frontend-okoye#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
