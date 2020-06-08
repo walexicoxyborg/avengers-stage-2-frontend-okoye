@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Landing Page</title>
+    <!-- bootstrap cdn -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="clearfix">
+      <span class="logo float-left"><img src="Resources/logo2.png" alt="logo" width="50px" height="50px"></span>
+      
+      <nav class="float-right mt-3 mr-3">
+        
+        <div></div>
         <ul>
             <li>Hotel</li>
             <li>Home</li>
@@ -15,12 +24,19 @@
             <li>Contact Us</li>
             <li>Gallery</li>
         </ul>
+      </nav>
+        
+        <div class="clearfix"></div>
+    </header>
   
-  
-        <h1>EXPLORE OUR ROOMS</h1>
-        <button>BOOK NOW</button>
-    
-      </header>
+      <div class="banner">
+        <div class="container">
+          
+          <h1>EXPLORE OUR ROOMS</h1>
+          <button>BOOK NOW</button>
+        </div>
+      </div>
+      
 
 <!-- RESERVATION SECTION -->
 
@@ -124,7 +140,7 @@
 
 <!-- FOOTER SECTION -->
 
-<section>
+<section class="footer">
     <ul>
         <li>Book Now</li>
         <li>No 11, Somaria Ama, Portharcourt, Rivers State, Nigeria</li>
