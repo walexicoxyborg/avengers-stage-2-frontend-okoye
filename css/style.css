@@ -7,7 +7,13 @@
   padding-top: 1rem; }
   .header__logo {
     display: block;
-    float: left; }
+    float: left;
+    padding-left: 1.5rem;
+    padding-top: -0.75rem; }
+    .header__logo--svg {
+      font-size: 1.5rem; }
+    .header__logo:hover {
+      transform: translateY(-0.2rem); }
   .header__links {
     float: right;
     display: block;
@@ -22,6 +28,48 @@
         .header__links--list-item:hover {
           font-size: 1.1rem;
           transform: translateY(-0.2rem); }
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #55A8AE;
+  color: #fff;
+  padding: 2rem 3rem; }
+  .footer-link:hover {
+    transform: translateY(-0.1rem); }
+  .footer-body-logo {
+    clear: none; }
+  .footer-body-text {
+    margin-left: 1rem; }
+  .footer_booking {
+    order: 1; }
+  .footer-care {
+    order: 2; }
+  .footer-facilities {
+    order: 3; }
+  .footer-contact {
+    display: block; }
+    .footer-contact__social {
+      display: inline-block;
+      margin: 0.5rem;
+      max-width: 2.5rem; }
+
+.footer-group {
+  width: 19rem;
+  margin-top: 1rem;
+  padding: 1rem 0; }
+  .footer-group__head {
+    text-transform: Uppercase;
+    font-size: 1.05rem;
+    margin-bottom: 1rem; }
+  .footer-group__body {
+    font-size: 0.9rem; }
+    .footer-group__body--item {
+      list-style-type: none;
+      display: flex;
+      margin-bottom: 0.5rem; }
 
 *,
 *::after,

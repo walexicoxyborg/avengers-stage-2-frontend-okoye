@@ -8,6 +8,16 @@
   &__logo{
     display: block;
     float: left;
+    padding-left: 1.5rem;
+    padding-top: -0.75rem;
+
+    &--svg{
+      font-size: 1.5rem;
+    }
+
+    &:hover{
+      transform: translateY(-0.2rem);
+    }
   }
   &__links{
     float: right;
