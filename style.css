@@ -3,7 +3,30 @@
 /* All other resources should be downloaded on your own */
 /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
  */
- /* font-family: Ubuntu,
+ /*font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
 serif; */
+
+/* CONTACT PAGE STYLES */
+.contact{
+  font-family: Ubuntu, sans-serif;
+  font-family: Lora, serif; 
+  background: #f0f0f0;
+}
+
+.contact-wrapper {
+  margin: 30px 50px;
+}
+
+#contact {
+  color: #55A8AE;
+}
+
+.contact-left {
+  background: #55A8AE;
+}
+
+.contact-btn {
+  background: white;
+}
