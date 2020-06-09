@@ -1,0 +1,210 @@
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+
+*{
+    font-family: ubuntu, sans-serif;
+}
+body { 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #55A8AE;
+    display: flex;
+
+  }
+  .logo{
+      height: 65px;
+      padding-left: 15px;
+      margin-top: 10px;
+  }
+  
+  .header-right a{
+    float: right;
+    text-decoration: none;
+    padding-left: 35px;
+    line-height: 80px;
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+  }
+  .header-right{
+      margin-left: 400px;
+  }
+  footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #55A8AE;
+    color: white;
+  }
+  footer section{
+      display: flex;
+      font-size: 15px;
+      /* justify-content: center; */
+     
+  }
+  .logo2{
+    height: 65px;
+    padding-left: 20px;
+   
+  }
+  .location{
+      display: flex;
+  }
+  .contact{
+      display: flex;
+  }
+  .mail{
+      display: flex;
+  }
+  ul{
+      list-style-type: none;
+  }
+  li{
+      padding: 15px;
+      line-height: 2px;
+  }
+  .icons{
+     padding-bottom: 30px;
+     height: 20px;
+  }
+  #mail{
+      height: 12px;
+      margin-top: 5px;
+  }
+  #mailtext{
+      line-height: 0px;
+      padding-left: 15px;
+  }
+  #fb, #tl, #li, #it {
+      padding:15px;
+      margin: 0%;
+  }
+  .customercare, .facilities{
+      margin-top: 85px;
+      padding: 15px;
+      line-height: 2px;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+  }
+  .booknow, .customercare, .facilities{
+      margin-left: 150px;
+  }
+  @media screen and (max-width: 1300px) {
+    .header-right a{
+        float: none;
+        padding-left:5px;
+        line-height: 80px;
+        margin-left: 100px;
+      }
+      .header-right{
+          margin-left: 100px;
+  }
+  footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #55A8AE;
+    color: white;
+  }
+  footer section{
+      display: flex;
+      font-size: 15px;
+      /* justify-content: center; */
+     
+  }
+  
+  li{
+      padding: 15px;
+      line-height: 15px;
+  }
+  .icons{
+     padding-bottom: 30px;
+     height: 20px;
+  }
+  #mail{
+      height: 12px;
+      margin-top: 5px;
+  }
+  #mailtext{
+      line-height: 0px;
+      padding-left: 15px;
+  }
+  #fb, #tl, #li, #it {
+      padding:15px;
+      margin: 0%;
+  }
+  .customercare, .facilities{
+      margin-top: 85px;
+      padding: 15px;
+      line-height: 15px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header{
+        display: block;
+    }
+  .header-right a{
+      float: none;
+      padding-left:5px;
+      line-height: 80px;
+      margin-left: 5px;
+    }
+    .header-right{
+        margin-left:5px;
+}
+footer section{
+  display: block;
+  font-size: 15px;
+
+}
+.booknow, .customercare, .facilities{
+  margin-left: 10px;
+
+}
+.logo2{
+    margin-top: 5px;
+}
+}
+  @media screen and (max-width: 600px) {
+      .header{
+          display: block;
+      }
+    .header-right a{
+        float: none;
+        padding-left:5px;
+        line-height: 80px;
+        margin-left: 5px;
+      }
+      .header-right{
+          margin-left:5px;
+  }
+  footer section{
+    display: block;
+    font-size: 15px;
+   
+}
+.booknow, .customercare, .facilities{
+    margin-left: 10px;
+ 
+  }
+  .logo2{
+      margin-top: 5px;
+  }
+}
