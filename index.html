@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Landing Page</title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <link href="css/bootstrap-3.3.6-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,60 +30,93 @@
 <!-- RESERVATION SECTION -->
 
       <section>
-   <h1>RESERVATION</h1>
+          <div class="container-fluid" style="padding: 100px;">
+                <div class="container heading"><h1>RESERVATION</h1></div>
+                <div class="container-fluid">
+                    <div class="col-md-2">
+                        <label for="date">Check in</label>
+                        <input type="date" name="" id="checkIn">
+                    </div>
+                    
+                    <div class="col-md-1">
+                        <label for="cars">Night</label>
+                        <select name="" id="list" form="">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="opel">3</option>
+                        <option value="audi">4</option>
+                        </select>
+                    </div>
 
-    <label for="date">Check in</label>
-    <input type="date" name="" id="">
-    
-<label for="cars">Night</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
+                    <div class="col-md-2">    
+                        <label for="date">Check Out</label>
+                        <input type="date" name="" id="checkIn">
+                    </div>
 
-    <label for="date">Check in</label>
-    <input type="date" name="" id="">
+                    <div class="col-md-1">    
+                        <label for="cars">Adult</label>
+                        <select name="" id="list" form="">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="opel">3</option>
+                        <option value="audi">4</option>
+                        </select>
+                    </div>
 
-    <label for="cars">Adult</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
+                    <div class="col-md-1">
+                        <label for="cars">Children</label>
+                        <select name="" id="list" form="">
+                        <option value="volvo">1</option>
+                        <option value="saab">2</option>
+                        <option value="opel">3</option>
+                        <option value="audi">4</option>
+                        </select>
+                    </div>
 
-<label for="cars">Children</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
-
-<button>CHECK AVAILABILITY</button>
+                    <div class="col-md-5"><button id="check">CHECK AVAILABILITY</button></div>
+                </div>
+            </div>
       </section>
  
 
       <!-- PRICING SECTION -->
 
       <section>
-
-    <h1>ROOMS AND RATES</h1>
-    <p>All rooms are equipped with free Wi-fi, Large Smart Tv,
-        21 international stations and a central air condition.
-    </p>
-     <img src="" alt="">
-    <h6>Deluxe rooms - one king bed</h6>
-    <p>10,000</p>
-    <p>Check Details</p>
-
-     <img src="" alt="">
-    <h6>Standard rooms - one king sized bed</h6>
-    <p>20,000</p>
-    <p>Check Details</p>
-
+          <div class="container-fluid room">
+                <div class="container">
+                    <div class="col-md-10 heading"><h1>ROOMS AND RATES</h1></div>
+                    <div class="col-md-1" style="padding-top: 50px;">
+                        <img src="Resources/a2.png" style="width:45px; height: 45px;">
+                    </div>
+                    <div class="col-md-1" style="padding-top: 50px;">
+                        <img src="Resources/a1.png" style="width:45px; height: 45px;">
+                    </div>
+                </div>
+                <div class="container sub-heading">
+                    <p>All rooms are equipped with free Wi-fi, Large Smart Tv,<br>
+                    21 international stations and a central air condition.
+                    </p>
+                </div>
+                <div class="container rates">
+                    <div class="col-md-5 deluxe">
+                        <img src="Resources/unsplash-bed1.png" alt="" style="width: 100%;">
+                        <h5>Deluxe rooms - one king bed</h5>
+                        <p>
+                        <img src="Resources/naira.png" style="height: 15px; padding: 0px;">10,000<br>
+                        Check Details <img src="Resources/arrow.png" style="width: 15px; height: 10px; margin-right: 5px;">
+                        </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 standard">
+                    <img src="Resources/unsplash-bed2.png" alt="" style="width: 100%;">
+                    <h5>Standard rooms - one king sized bed</h5>
+                    <p>
+                        <img src="Resources/naira.png" style="height: 15px; padding: 0px;">20,000<br>
+                    Check Details <img src="Resources/arrow.png" style="width: 15px; height: 10px; margin-right: 5px;">
+                    </p>
+                    </div>
+                </div>
+            </div>
       </section>
 
 
