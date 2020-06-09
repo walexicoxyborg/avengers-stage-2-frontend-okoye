@@ -1,0 +1,43 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/home";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+}
+
+body{
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  line-height: 1.5rem;
+  max-width: 1365px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+  @include respond(tab-land){
+    font-size: 14px;
+  }
+  @include respond(tab-port){
+    font-size: 12px;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
