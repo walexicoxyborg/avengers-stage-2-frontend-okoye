@@ -1,4 +1,6 @@
 
+=======
+
 body {
   font-family: Ubuntu, sans-serif, Lora, serif;
 }
@@ -74,6 +76,7 @@ sans-serif;
 font-family: Lora,
 serif; */
 
+
 *{
     box-sizing: border-box;
 }
@@ -144,6 +147,11 @@ color:#55A8AE;
     padding: 1rem;
 }
 
+.beds {
+    width: 500px;
+    height: 300px;
+}
+
 
 @media(max-width:900px){
     .flex-container{
@@ -169,6 +177,8 @@ color:#55A8AE;
        display: block;
     }
 }
+
+
 /* ROOM RATES SECTION */
 
 .room-rates-section{
@@ -186,6 +196,7 @@ color:#55A8AE;
       margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+
 }
 
 .room-rates-section .first-paragraph{
@@ -193,7 +204,7 @@ color:#55A8AE;
    padding-top: 1rem;
    margin-top: 0;
 padding-bottom: 3rem;
-    font-size: smaller;
+    font-size: small;
     text-align: center;
 }
 
@@ -225,6 +236,9 @@ img:hover {
 
 .naira-logo{
     width: 10px;
+
+}
+=======
 }
 
 /* END OF ROOM RATES SECTION */
@@ -405,5 +419,6 @@ Media query for offer section */
        font-weight: bold;
        font-size: 16px;
    }
+
 
 
