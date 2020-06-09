@@ -36,9 +36,9 @@ serif; */
     font-family: "Montserrat";
     display: inline-block;
     position: absolute;
-    width: 720px;
+    width: 730px;
     height: 54%;
-    padding: 70px 0;
+    padding: 70px 0 70px 20px;
     margin-top: 70px;
 }
 
