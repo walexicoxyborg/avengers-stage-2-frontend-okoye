@@ -36,7 +36,7 @@ serif; */
     font-family: "Montserrat";
     display: inline-block;
     position: absolute;
-    width: 50%;
+    width: 620px;
     height: 54%;
     padding: 70px 0;
     margin-top: 70px;
@@ -59,7 +59,7 @@ serif; */
 #form-name {
     margin: 35px 40px 30px 50px;
     padding-left: 20px;
-    width: 554px;
+    width: 510px;
     height: 46px;
     margin-bottom: 30px;
     margin-top: 0;
@@ -71,7 +71,7 @@ serif; */
 #form-comments {
     margin: 35px 40px 30px 50px;
     padding-left: 20px;
-    width: 530px;
+    width: 487px;
     height: 66px;
     margin-bottom: 30px;
     margin-top: 0;
@@ -81,7 +81,7 @@ serif; */
     margin: 0 40px 30px 50px;
     text-align: center;
     padding-left: 20px;
-    width: 554px;
+    width: 510px;
     height: 46px;
     margin-bottom: 30px;
     margin-top: 30px;
