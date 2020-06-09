@@ -1,9 +1,63 @@
-/* Hex code of color used was  #55A8AE; */
-/* The Logo is hand drawn */
-/* All other resources should be downloaded on your own */
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
- /* font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
+body {
+  font-family: Ubuntu, sans-serif, Lora, serif;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-weight: 700;
+}
+.container {
+  position: relative;
+}
+.item-wrapper {
+  position: relative;
+  width: 100%;
+}
+.cover-wrapper {
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.253);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.explore-text {
+  position: absolute;
+  top: 192px;
+  right: 14%;
+  text-align: center;
+  justify-content: center;
+}
+.explore-text h1 {
+  font-size: 71px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.788);
+}
+.button {
+  background-color: #55a8ae;
+  color: white;
+  border-radius: 15px;
+  width: 116px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  height: 40px;
+}
+.slide-wrapper {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+.span-div li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-bottom: 68px;
+  background-color: rgba(255, 255, 255, 0.158);
+  border: 2px solid black;
+}
+.span-div li:active {
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.158);
+}
