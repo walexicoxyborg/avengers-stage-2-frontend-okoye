@@ -3,4 +3,4 @@
 
 -  [@ifatoki](https://github.com/ifatoki)
 
--  [@pascal] (https://github.com/kodecheff)
+-  [@kodecheff] (https://github.com/kodecheff)
