@@ -198,6 +198,8 @@
   <!-- bootstrap cdn -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  
+  
 </head>
 
 <body>
@@ -223,12 +225,34 @@
     <div class="clearfix"></div>
   </header>
   
-    <div class="banner">
-      <div class="container">
-        <h1>EXPLORE OUR ROOMS</h1>
-        <button>BOOK NOW</button>
-      </div>
-    </div>
+  <div class="slideshow-container">
+        <div class="mySlides fades">
+          <div class="text"><h1 class="header">EXPLORE OUR ROOMS</h1></div>
+          <button type="submit" class="button"><a href="" class="anchor">BOOK NOW</a></button>
+        </div>
+
+        <div class="mySlides fades">
+          <div class="text"><h1 class="header">EXPLORE OUR ROOMS<h1></div>
+          <button type="submit" class="button"><a href="" class="anchor">BOOK NOW</a></button>
+        </div>
+
+        <div class="mySlides fades">
+          <div class="text"><h1 class="header">EXPLORE OUR ROOMS</h1></div>
+          <button type="submit" class="button"><a href="" class="anchor">BOOK NOW</a></button>
+        </div>
+        <div class="mySlides fades">
+          <div class="text"><h1 class="header">EXPLORE OUR ROOMS</h1></div>
+          <button type="submit" class="button"><a href="" class="anchor">BOOK NOW</a></button>
+        </div>
+        <div class="icon">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+  </div>
+
+    
   
   <!-- RESERVATION SECTION -->
   <section>
@@ -356,6 +380,7 @@
   </section>
   
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 
