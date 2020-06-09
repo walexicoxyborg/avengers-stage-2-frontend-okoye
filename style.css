@@ -29,7 +29,7 @@ body{
 .testimonial_title{
     color: #55A8AE;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 4.15em;
+    font-size: 4.15vw;
     margin: 0.5em 0;
     letter-spacing: ;
 }.testimonial img{
@@ -40,7 +40,7 @@ body{
     font-weight: bold;
     font-style: italic;
 }.testimonial p{
-    font-size: 1.1em;
+    font-size: 1.3vw;
 }.contact_us{
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ body{
 }.contact_head{
     color: #55A8AE;
     font-family: 'Ubuntu', sans-serif;
-    font-size:3.5em;
+    font-size:3.5vw;
     width: 70%;
     text-align: end;
 }.contactUs_main{
@@ -85,13 +85,71 @@ body{
     padding-left: 3em;
     box-sizing: content-box;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1vw;
     color: #55A8AE;
-}.comments{
+    border-radius: .3em;
+    border: none;
+}input{
+    width: 97%;
+}
+.comments{
     height: 10em;
     padding: 1em;;
 }textarea{
     width: 100%;
     font-size: large;
-    color: black;
-}
+    color: #55A8AE;
+    box-sizing: inherit;
+}@media only screen and (max-width: 900px) {
+    .contactUs_main {
+      flex-direction: column-reverse;
+      margin: auto;
+      height: 100%;
+    }.map{
+        height: 50%;
+        margin: ;
+    }.contact_head{
+        text-align: center;
+        margin: .5em;
+    }.contact_form{
+        height: 50%;
+    }form{
+        margin: auto;
+    }input, textarea{
+        height: 2em;
+        width: 85%;
+        padding-left: 1em;
+        font-size: small;
+    }input{
+        width: 90%;
+    }.testimonial p{
+        font-size: 2vw;
+    }
+  }
+ @media only screen and (max-width: 320px) {
+    .contactUs_main {
+      flex-direction: column-reverse;
+      margin: auto;
+      height: 100%;
+    }.map{
+        height: 50%;
+        margin: ;
+    }.contact_head{
+        text-align: center;
+        margin: .5em;
+    }.contact_form{
+        height: 50%;
+    }form{
+        margin: auto;
+    }input, textarea{
+        height: 1.5em;
+        width: 85%;
+        padding-left: 1em;
+        font-size: small;
+        font-weight: lighter;
+    }input{
+        width:90%;
+    }.testimonial p{
+        font-size: 2vw;
+    }
+  } 
