@@ -7,3 +7,82 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+
+/* Contact Us Section */
+
+#contact {
+    background-color: #F1F2F2;
+    position: relative;
+}
+
+.contact-us {
+    background-color: #F1F2F2;
+    width: 100%;
+    float: left;
+    clear: none;
+    position: relative;
+    padding: 0 60px;
+}
+
+.contact-img {
+    display: inline-block;
+    height: 70%;
+    padding: 70px 0;
+}
+
+.contact-form {
+    background-color: #55A8AE;
+    font-family: "Montserrat";
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 54%;
+    padding: 70px 0;
+    margin-top: 70px;
+}
+
+.contact-text {
+    padding-left: 580px;
+    position: absolute;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 70px;
+    display: flex;
+    font-style: normal;
+    margin-top: 0;
+    color: #55A8AE;
+}
+
+#form-name {
+    margin: 35px 40px 30px 50px;
+    padding-left: 20px;
+    width: 554px;
+    height: 46px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+#form-comments {
+    margin: 35px 40px 30px 50px;
+    padding-left: 20px;
+    width: 530px;
+    height: 66px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.form-button {
+    margin: 0 40px 30px 50px;
+    text-align: center;
+    padding-left: 20px;
+    width: 554px;
+    height: 46px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

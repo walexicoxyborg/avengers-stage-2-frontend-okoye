@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Landing Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -114,17 +120,33 @@
 
 <!-- CONTACT US SECTION -->
 
-<section>
-   <img src="" alt="">
-   <input type="text" name="" value="Name" id="">
-    <input type="text" name="" value="Email" id="">
-        <input type="text" name="" value="Comments" id="">
-        <button>Send</button>
+<section id="contact">
+    <div class="contact-us">
+        <div>
+            <h1 class="contact-text">Contact Us</h1>
+        </div>
+       
+        <div class="contact-img">
+            <img class="google-image" src="Resources/Google Map 1.png" alt="Google Map">
+        </div>
+        
+        <div class="contact-form">
+            <input type="text" name="name" value="Name" id="form-name"><br>
+            <input type="email" name="email" value="Email" id="form-name"><br>
+            <input type="text" name="comment" value="Comments" id="form-comments"><br>
+            <button class="form-button">Send</button>
+        </div>
+    </div>
+
 </section>
 
+<br>
+
+<br>
 <!-- FOOTER SECTION -->
 
 <section>
+    <div>
     <ul>
         <li>Book Now</li>
         <li>No 11, Somaria Ama, Portharcourt, Rivers State, Nigeria</li>
@@ -147,6 +169,7 @@
     <li>Bar</li>
     <li>Cinema</li>
     </ul>
+    </div>
 </section>
 </body>
 </html>
