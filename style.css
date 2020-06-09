@@ -1,6 +1,299 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+* {box-sizing: border-box}
+body{
+  font-family: Ubuntu, sans-serif;
+  font-family: Lora, serif;
+  margin: 0;
+}
+
+.container, .row{
+  margin: 0;
+}
+.logo{
+  margin-left: 5px;
+}
+
+header {
+  background: #55A8AE;
+  color: white;
+  padding: 10px 0;
+}
+
+header ul{
+  list-style: none;
+}
+header li{
+  display: inline-block;
+  margin-right: 15px;
+}
+header .menu-icon{
+  display: none;
+} 
+
+.mySlides {
+  display: none;
+  position: relative;
+  background-image: url("Resources/unsplash-bed1.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+.anchor:hover{
+  text-decoration: none;
+  color: white;
+}
+.button:hover{
+  background-color: rgba(0,0,0,0.8);
+
+}
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+.button{
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+  border-radius: 15px;
+  border: 0px;
+  border-color: rgb(121, 163, 160);
+  width: 110px;
+  height: 40px;
+  background-color: rgb(121, 163, 160);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(250, 252, 252);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.icon{
+  position: absolute; 
+  bottom: 10%;
+  left: 46%;
+}
+.active {
+  background-color: #717171;
+}
+.dot:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 460px) {
+  .button{height: 30px; width: 80px}
+  h1{ font-size: 20px; }
+  a{font-size: 10px;}
+  .icon{left: 42%;}
+  .mySlides{ height: 250px; }
+  .button{left: 45%;}
+}
+
+.footer{
+  background:#55A8AE;
+  color: white;
+  padding: 50px 0;
+}
+.footer ul{
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.footer ul li h1{
+  font-weight: bolder;
+}
+.footer ul li{
+  line-height: 2em;
+}
+.footer .book_now .fa{
+  margin-right: 15px;
+}
+.footer .book_now img{
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  .drop-down{
+    position: relative;
+    display: block;
+  }
+  .drop-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    word-spacing: 0;
+    background: white;
+  }
+  .drop-content li{
+    padding: 0;
+    margin: 0;
+  }
+  ul.nav li{
+    margin: 0px;
+    padding: 20px;
+    color: #55A8AE;
+  }
+  header .menu-icon {
+    display: inline-block;
+  }
+  .drop-down:hover .drop-content {
+    display: block;
+  }
+  .footer{
+    padding-top: 30px;
+  }
+
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
+
+/*@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+font-family: Ubuntu, sans-serif;
+font-family: Lora, serif; */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat;
+	background-color: white;
+	color: #55A8AE;
+}
+
+/* Utility classes */
+section{
+	padding: 2rem 0;
+}
+
+.container{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.lead_text{
+	color: #55A8AE;
+	font-weight: bold;
+	font-family: Montserrat;
+	padding: 1rem 0;
+ 
+}
+
+/* Reservation classes */
+
+.reservation{
+	background-color: #f5f5f5;
+	padding-bottom: 5rem;
+}
+
+.reservation .button{
+	background-color: #55A8AE;
+	color: white;
+	padding: 1rem;
+	margin-left: 5rem;
+	text-decoration: none;
+	border: none;
+	text-align: center;
+}
+
+/* Pricing section */
+
+#room_section{
+	position: relative;
+}
+
+.room_head p{
+	color: #4d4d4d;
+	text-align: justify;
+	padding: 2rem 0;
+}
+
+
+.rooms h3{
+	color: #4d4d4d;
+	font-weight: normal;
+	padding-top: 1rem;
+}
+
+.myform2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.myform2 > div {
+  width: 180px;
+  margin: .25rem;
+  padding-right: 1rem;
+  height: auto;
+}
+
+.myform2 input, .myform2 select{
+	padding: .5rem;
+	width: 100%;
+	font-size: 100%;
+	background-color: white;
+	color: black;
+	border: none;
+}
+
+.myform2 label{
+	font-weight: bold;
+
 /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
  */
  /* font-family: Ubuntu,
@@ -116,4 +409,6 @@ header .menu-icon{
   .footer{
     padding-top: 30px;
   }
+
+
 }
