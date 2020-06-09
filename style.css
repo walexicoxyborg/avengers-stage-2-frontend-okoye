@@ -1,9 +1,109 @@
 /* Hex code of color used was  #55A8AE; */
+
+
 /* The Logo is hand drawn */
+
+
 /* All other resources should be downloaded on your own */
+
+
 /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
  */
- /* font-family: Ubuntu,
+
+
+/* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
 serif; */
+
+
+/* ----------------------------------------------- */
+
+
+/* CONTACT US SECTION */
+
+
+/* ----------------------------------------------- */
+
+.form {
+    background-color: #f4f4f4;
+    font-family: Ubuntu, sans-serif, Lora, serif;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form-header {
+    color: #55A8AE;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.contact-form {
+    background-color: #55A8AE;
+    height: 467px;
+    width: 581px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .contact-content img {
+    max-width: 50%;
+    height: auto;
+}
+
+input,
+textarea,
+button {
+    width: 80%;
+    padding: 20px;
+    border: none;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+textarea {
+    height: 100px;
+}
+
+#btn {
+    width: 88%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+
+:focus {
+    outline: none;
+}
+
+@media screen and (max-width:600px) {
+    .contact-content {
+        flex-direction: column;
+    }
+    .form .contact-content img {
+        max-width: 100%;
+        height: auto;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
