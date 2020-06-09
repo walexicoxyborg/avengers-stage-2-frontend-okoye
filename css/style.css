@@ -1,7 +1,8 @@
 .header {
   width: 100%;
-  display: block;
-  min-height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
   background: #55A8AE;
   color: #fff;
   padding-top: 1rem; }
@@ -10,24 +11,66 @@
     float: left;
     padding-left: 1.5rem;
     padding-top: -0.75rem; }
+    @media (max-width: 600px) {
+      .header__logo {
+        padding-left: .5rem; } }
     .header__logo--svg {
       font-size: 1.5rem; }
     .header__logo:hover {
-      transform: translateY(-0.2rem); }
+      transform: translateY(-0.1rem); }
   .header__links {
     float: right;
     display: block;
-    padding-right: 1rem; }
+    padding-right: 1rem;
+    position: relative; }
+    @media (max-width: 600px) {
+      .header__links {
+        display: none;
+        background-color: #55A8AE;
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        z-index: 99;
+        width: 20rem;
+        line-height: 2rem;
+        font-size: 1.2rem; } }
     .header__links--list {
       display: flex;
       justify-content: space-between; }
+      @media (max-width: 600px) {
+        .header__links--list {
+          display: block; } }
       .header__links--list-item {
         display: flex;
         list-style-type: none;
         padding: 0 1rem; }
+        @media (max-width: 600px) {
+          .header__links--list-item {
+            display: block;
+            margin: 2rem 0;
+            text-align: center;
+            width: 100%;
+            font-weight: bolder; }
+            .header__links--list-item:active {
+              text-decoration: underline; } }
         .header__links--list-item:hover {
           font-size: 1.1rem;
           transform: translateY(-0.2rem); }
+  .header__menu {
+    float: right;
+    display: none;
+    width: 40px;
+    margin-right: 2rem; }
+    @media (max-width: 600px) {
+      .header__menu {
+        display: block;
+        margin-right: 0.5rem; } }
+
+.header__links--responsive {
+  display: block; }
+
+.hide-icon {
+  display: none; }
 
 .footer {
   width: 100%;
@@ -38,7 +81,8 @@
   color: #fff;
   padding: 2rem 3rem; }
   .footer-link:hover {
-    transform: translateY(-0.1rem); }
+    transform: translateY(-0.1rem);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
   .footer-body-logo {
     clear: none; }
   .footer-body-text {
@@ -71,6 +115,56 @@
       display: flex;
       margin-bottom: 0.5rem; }
 
+.home {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../Resources/unsplash-bed1.png);
+  background-color: rgba(85, 168, 174, 0.1);
+  background-size: auto 120%;
+  background-position: top;
+  background-repeat: no-repeat; }
+  .home__items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .home__items--text {
+      color: #fff;
+      font-size: 1.25rem;
+      line-height: 3rem;
+      word-spacing: 2px;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem; }
+      @media (max-width: 765px) {
+        .home__items--text {
+          font-size: 1.05rem;
+          line-height: 2rem;
+          word-spacing: 1.5px; } }
+      @media (max-width: 600px) {
+        .home__items--text {
+          font-size: 0.8rem;
+          line-height: 2rem;
+          word-spacing: 1px; } }
+
+.btn {
+  padding: 0.5rem 3rem;
+  background-color: #55A8AE;
+  color: #fff;
+  border: none;
+  text-transform: uppercase; }
+  @media (max-width: 600px) {
+    .btn {
+      padding: 0.5rem 2rem; } }
+  .btn:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--rounded {
+  border-radius: 10rem; }
+
 *,
 *::after,
 *::before {
@@ -86,12 +180,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.5rem;
   max-width: 1365px;
   margin: 0 auto;
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
+  @media (max-width: 765px) {
+    body {
+      font-size: 14px; } }
+  @media (max-width: 600px) {
+    body {
+      font-size: 12px; } }
 
 a {
   text-decoration: none;
