@@ -3,13 +3,13 @@
 /* All other resources should be downloaded on your own */
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
+@import 'font.css';
  /* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
-serif; */
+serif; */  
 
-body {
+.header {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,21 +25,21 @@ body {
     overflow: hidden;
 }
 
-.slider {
+.carousel-container .slider {
     height: 100%;
     display: flex;
     width: 400%;
     transition: all .3s;
 }
 
-.slider section {
+.carousel-container .slider section {
     flex-basis: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content {
+.carousel-container .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,18 +48,18 @@ body {
     height: 100%;
 }
 
-.controls .arrow {
+.carousel-container .controls .arrow {
     position: absolute;
     top: 50%;
     cursor: pointer;
     transform: translateY(-50%);
 }
 
-.arrow.left {
+.carousel-container .arrow.left {
     left: 1rem;
 }
 
-.arrow.right {
+.carousel-container .arrow.right {
     right: 1rem;
 }
 
@@ -82,13 +82,13 @@ body {
     background-image: url(Resources/Unsplash-bed1.png);
 }
 
-section div {
+.carousel-container section div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section div h1 {
+.carousel-container section div h1 {
     font-size: 100px;
     color: #fff;
     line-height: 122px;
@@ -96,7 +96,7 @@ section div h1 {
     text-align: center;
 }
 
-section div button {
+.carousel-container section div button {
     width: 251px;
     height: 80px;
     background-color: #55A8AE;
@@ -108,7 +108,7 @@ section div button {
     cursor: pointer;
 }
 
-.arrow {
+.carousel-container .arrow {
     width: 40px;
     height: 40px;
     background-color: #55A8AE;
@@ -119,7 +119,7 @@ section div button {
     align-items: center;
 }
 
-.controls ul {
+.carousel-container .controls ul {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -129,7 +129,7 @@ section div button {
     margin: 0;
 }
 
-.controls ul li {
+.carousel-container .controls ul li {
     width: 14px;
     height: 14px;
     border: 2px solid #fff;
@@ -139,42 +139,42 @@ section div button {
     cursor: pointer;
 }
 
-.controls ul li.selected {
+.carousel-container .controls ul li.selected {
     background: #fff;
 }
 
 /* Responsiveness */
 @media screen and (max-width: 1250px) {
-    section div h1 {
+    .carousel-container section div h1 {
         font-size: 80px;
         width: 90%;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    section div h1 {
+    .carousel-container section div h1 {
         font-size: 70px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    section div h1 {
+    .carousel-container section div h1 {
         font-size: 60px;
     }
 }
 
 @media screen and (max-width: 790px) {
-    section div h1 {
+    .carousel-container section div h1 {
         font-size: 50px;
         margin-bottom: .5rem;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .left, .right {
+    .carousel-container .left, .carousel-container .right {
         display: none;
     }
-}
+} 
 =======
 /*== General ==*/
 
