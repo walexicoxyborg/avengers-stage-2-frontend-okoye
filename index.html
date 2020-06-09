@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -15,12 +16,51 @@
             <li>Contact Us</li>
             <li>Gallery</li>
         </ul>
+
+
   
-  
-        <h1>EXPLORE OUR ROOMS</h1>
-        <button>BOOK NOW</button>
-    
-      </header>
+      <div class="carousel-section"> 
+
+        <div class="overlay"> 
+          <h1 class="king">EXPLORE OUR ROOMS</h1>
+          <button class="butt">BOOK NOW</button>
+        </div>
+        
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="unsplash-bed1.png">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="unsplash-bed2.png" >
+          </div>
+
+          <div class="mySlides fade">
+            <img src="room2.jpeg" >
+          </div>
+
+          <div class="mySlides fade">
+            <img src="room1.jpeg" >
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          </div>
+
+          <div class="indicators">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+          </div>
+      </div>    
+     
+    </header>
+
+
+
 
 <!-- RESERVATION SECTION -->
 
@@ -148,5 +188,7 @@
     <li>Cinema</li>
     </ul>
 </section>
+
+<script type="text/javascript" src="carousel.js"></script>
 </body>
 </html>
