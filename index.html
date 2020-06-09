@@ -80,11 +80,12 @@
         </div>
        <div class="reservation__body">
            <form class="form" submit="#">
-               <div class="form__group">
+               <div class="form__main">
+               <div class="form__group form__group-date">
                    <label class="form__label" for="check-in">Check in</label>
-                   <input class="form__input" type="date" name="" id="check-in">
+                   <input class="form__input form__input--date" type="date" name="" id="check-in">
                </div>
-               <div class="form_group">
+               <div class="form__group form__group-others">
                    <label class="form__label"  for="night">Night</label>
                    <select class="form__select" name="" id="night" form="">
                        <option value="volvo">1</option>
@@ -93,11 +94,11 @@
                        <option value="audi">4</option>
                    </select>
                </div>
-               <div class="form__group">
+               <div class="form__group form__group-date">
                    <label class="form__label"  for="check-out">Check Out</label>
-                   <input class="form__input" type="date" name="" id="check-out">
+                   <input class="form__input  form__input--date" type="date" name="" id="check-out">
                </div>
-               <div class="form_group">
+               <div class="form__group form__group-others">
                    <label class="form__label"  for="adult-count">Adult</label>
                    <select class="form__select" name="" id="adult-count" form="">
                        <option value="volvo">1</option>
@@ -106,7 +107,7 @@
                        <option value="audi">4</option>
                    </select>
                </div>
-               <div class="form__group">
+               <div class="form__group form__group-others">
                    <label class="form__label"  for="children-count">Children</label>
                    <select class="form__select" name="" id="children-count" >
                        <option value="volvo">1</option>
@@ -115,8 +116,11 @@
                        <option value="audi">4</option>
                    </select>
                </div>
+               </div>
+               <div class="form__submit">
                <div class="reservations__btn">
                    <button class="btn">CHECK AVAILABILITY</button>
+               </div>
                </div>
            </form>
        </div>
@@ -125,40 +129,116 @@
 
       <!-- PRICING SECTION -->
 
-      <section>
+    <section class="room-advert">
+        <div class="room-advert__head">
+            <h1>ROOMS AND RATES</h1>
+        </div>
+        <div class="room-advert__pitch">
+            <p>All rooms are equipped with free Wi-fi, Large Smart Tv,
+                21 international stations and a central air condition.
+            </p>
+        </div>
+        <div class="room-advert__description">
+            <div class="room-advert__content">
+                 <div class="room-advert__content--image">
+                     <img class="room-advert__content--image-img" src="./Resources/unsplash-bed1.png" alt="deluxe room">
+                 </div>
+                <div class="room-advert__content--descriptions">
+                    <div class="room-advert__content--descriptions-details">
+                        <p>Deluxe rooms - one king bed</p>
+                    </div>
+                    <div  class="room-advert__content--descriptions-price">
+                        <p>10,000</p>
+                    </div>
+                    <div class="room-advert__content--descriptions-info">
+                        <p><a href="#">Check Details</a></p>
+                    </div>
 
-    <h1>ROOMS AND RATES</h1>
-    <p>All rooms are equipped with free Wi-fi, Large Smart Tv,
-        21 international stations and a central air condition.
-    </p>
-     <img src="" alt="">
-    <h6>Deluxe rooms - one king bed</h6>
-    <p>10,000</p>
-    <p>Check Details</p>
+                </div>
+            </div>
+              <div class="room-advert__content">
+                  <div class="room-advert__content--image">
+                      <img class="room-advert__content--image-img" src="./Resources/unsplash-bed2.png" alt="standard room">
+                  </div>
+                  <div class="room-advert__content--descriptions">
+                      <div class="room-advert__content--descriptions-details">
+                          <p>Standard rooms - one king sized bed</p>
+                      </div>
+                      <div  class="room-advert__content--descriptions-price">
+                          <p>20,000</p>
+                      </div>
+                      <div class="room-advert__content--descriptions-info">
+                          <p><a href="#">Check Details</a></p>
+                      </div>
 
-     <img src="" alt="">
-    <h6>Standard rooms - one king sized bed</h6>
-    <p>20,000</p>
-    <p>Check Details</p>
-
-      </section>
+                  </div>
+              </div>
+        </div>
+    </section>
 
 
 <!-- OFFERS SECTION -->
 
-<section>
+<section class="facilities">
+    <div class="facilities__head">
+        <h1>Facilities</h1>
+    </div>
+    <div class="facilities__body">
+        <div class="facilities__all">
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/cocktail.svg" alt="resturants" />
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Bar</p>
+                </div>
+            </div>
 
-    <h1>FACILITIES</h1>
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/resturant.svg" alt="resturants" />
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Restaurants</p>
+                </div>
+            </div>
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/pool.svg" alt="pool" />
 
-    <ul>
-        <li>Bar</li>
-        <li>Restaurants</li>
-        <li>Pool</li>
-        <li>Spa/Wellness</li>
-        <li>Cinema</li>
-        <li>Wi-Fi</li>
-    </ul>
-
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Pool</p>
+                </div>
+            </div>
+        </div>
+        <div class="facilities__all">
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/spa.svg" alt="spa" />
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Spa/Wellness</p>
+                </div>
+            </div>
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/cinema.svg" alt="cinema" />
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Cinema</p>
+                </div>
+            </div>
+            <div class="facilities__group">
+                <div class="facilities__group--image">
+                    <img class="facilities__group--image-img" src="./Resources/wifi.svg" alt="wifi" />
+                </div>
+                <div  class="facilities__group--text">
+                    <p>Wi-Fi</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- TESTIMONIALS SECTION -->
