@@ -10,13 +10,16 @@ serif; */
 
 /* CONTACT PAGE STYLES */
 .contact{
-  font-family: Ubuntu, sans-serif;
   font-family: Lora, serif; 
   background: #f0f0f0;
 }
 
 .contact-wrapper {
   margin: 30px 50px;
+}
+
+.contact-image {
+  width: 100%;
 }
 
 #contact {
