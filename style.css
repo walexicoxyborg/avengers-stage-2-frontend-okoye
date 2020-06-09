@@ -3,7 +3,108 @@
 /* All other resources should be downloaded on your own */
 /* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
  */
- /* font-family: Ubuntu,
+/* font-family: Ubuntu,
 sans-serif;
 font-family: Lora,
 serif; */
+
+/* contact.css starts */
+
+/* contact.css ends */
+
+@media only screen and (min-width: 768px) {
+  .controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f1f2f2;
+    padding: 3%;
+    /* margin-top: -14vh !important;*/
+  }
+  .controls input {
+    height: 50px !important;
+  }
+
+  .controls textarea {
+    height: 90px !important;
+  }
+  .submit-btn {
+    height: 50px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .map {
+    display: none;
+  }
+  .contact-controls {
+    padding: 6%;
+  }
+}
+/**/
+
+@media only screen and (max-width: 480px) {
+  .contact-section {
+    padding-top: 2vh;
+    padding-bottom: 8vh;
+    background-color: #f1f2f2;
+  }
+  .map {
+    display: none;
+  }
+  .controls {
+    width: 100%;
+  }
+  .contact-controls {
+    padding: 6%;
+  }
+
+  .contact-section .row {
+    margin-left: 0px !important;
+  }
+}
+
+.contact-controls {
+  background-color: #55a8ae;
+  position: relative;
+  /*padding-top: 16vh;*/
+}
+
+.controls input,
+.controls textarea,
+.controls button {
+  border-radius: 0px !important;
+  border: #fff;
+}
+.submit-btn {
+  color: #495057;
+  background-color: #fff;
+  width: 100%;
+}
+
+.contact-section h2 {
+  color: #55a8ae;
+  text-align: center;
+}
+
+.submit-btn:hover {
+  background-color: #80add7;
+  color: #fff;
+}
+
+.submit-btn:focus {
+  background-color: #005c93;
+}
+
+.contact-section .row {
+  margin-right: 0px !important;
+}
