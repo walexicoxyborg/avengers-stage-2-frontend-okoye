@@ -7,3 +7,44 @@
 sans-serif;
 font-family: Lora,
 serif; */
+body {
+  background-color: white;
+  margin: 0px;
+}
+h1{
+  padding: 20px;
+  color: #55A8AE;
+  text-align: center;
+  font-family: Ubuntu;
+}
+.section1{
+  background-color: ghostwhite;
+  padding: 0px;
+  margin 0 0 auto;
+  font-weight: bold;
+}
+button{
+  background-color:#55A8AE;
+  color: #fff;
+  padding: 20px 20px white;
+  margin:0px 0px #55A8AE;
+  float: right;
+}
+h1 p {text-align: center;
+}
+#date{
+  background-color: white;
+  color: black;
+  
+}
+. images {
+  display:flex;
+  flex-direction: row;
+}
+#select-button{
+  background-color: white;
+  color: black;
+}
+p {
+  font-family:Sans-Serif;
+}
