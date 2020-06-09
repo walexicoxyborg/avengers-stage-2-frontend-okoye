@@ -67,49 +67,60 @@
                 <h1>Explore Our Rooms</h1>
             </div>
             <div class="home__items--btn">
-                <button class="btn btn--rounded">Book Now</button>
+                <button class="btn btn--rounded home-btn">Book Now</button>
             </div>
         </div>
     </div>
 
 
 <!-- RESERVATION SECTION -->
-
-      <section>
-   <h1>RESERVATION</h1>
-
-    <label for="date">Check in</label>
-    <input type="date" name="" id="">
-
-<label for="cars">Night</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
-
-    <label for="date">Check in</label>
-    <input type="date" name="" id="">
-
-    <label for="cars">Adult</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
-
-<label for="cars">Children</label>
-<select name="" id="" form="">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="audi">4</option>
-</select>
-
-<button>CHECK AVAILABILITY</button>
-      </section>
+    <section class="reservations">
+        <div class="reservations__head">
+            <h1>RESERVATION</h1>
+        </div>
+       <div class="reservation__body">
+           <form class="form" submit="#">
+               <div class="form__group">
+                   <label class="form__label" for="check-in">Check in</label>
+                   <input class="form__input" type="date" name="" id="check-in">
+               </div>
+               <div class="form_group">
+                   <label class="form__label"  for="night">Night</label>
+                   <select class="form__select" name="" id="night" form="">
+                       <option value="volvo">1</option>
+                       <option value="saab">2</option>
+                       <option value="opel">3</option>
+                       <option value="audi">4</option>
+                   </select>
+               </div>
+               <div class="form__group">
+                   <label class="form__label"  for="check-out">Check Out</label>
+                   <input class="form__input" type="date" name="" id="check-out">
+               </div>
+               <div class="form_group">
+                   <label class="form__label"  for="adult-count">Adult</label>
+                   <select class="form__select" name="" id="adult-count" form="">
+                       <option value="volvo">1</option>
+                       <option value="saab">2</option>
+                       <option value="opel">3</option>
+                       <option value="audi">4</option>
+                   </select>
+               </div>
+               <div class="form__group">
+                   <label class="form__label"  for="children-count">Children</label>
+                   <select class="form__select" name="" id="children-count" >
+                       <option value="volvo">1</option>
+                       <option value="saab">2</option>
+                       <option value="opel">3</option>
+                       <option value="audi">4</option>
+                   </select>
+               </div>
+               <div class="reservations__btn">
+                   <button class="btn">CHECK AVAILABILITY</button>
+               </div>
+           </form>
+       </div>
+    </section>
 
 
       <!-- PRICING SECTION -->

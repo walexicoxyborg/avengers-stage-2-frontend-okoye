@@ -149,21 +149,36 @@
           line-height: 2rem;
           word-spacing: 1px; } }
 
-.btn {
-  padding: 0.5rem 3rem;
-  background-color: #55A8AE;
-  color: #fff;
-  border: none;
-  text-transform: uppercase; }
+.home-btn {
+  padding: 0.5rem 3rem; }
   @media (max-width: 600px) {
-    .btn {
+    .home-btn {
       padding: 0.5rem 2rem; } }
-  .btn:hover {
-    transform: translateY(-0.1rem);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
-.btn--rounded {
-  border-radius: 10rem; }
+.reservations {
+  background-color: #F5F5F5; }
+  .reservations__head {
+    text-transform: uppercase;
+    color: #55A8AE;
+    text-align: center;
+    margin: 2rem 0; }
+
+.form {
+  display: flex;
+  justify-content: space-between; }
+  .form__group {
+    width: 8rem;
+    margin: 0.5rem; }
+  .form__label {
+    margin: 0;
+    padding: 0;
+    display: block;
+    clear: both; }
+  .form__input, .form__select {
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem; }
 
 *,
 *::after,
@@ -196,3 +211,17 @@ body {
 a {
   text-decoration: none;
   color: inherit; }
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #55A8AE;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bolder; }
+  .btn:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--rounded {
+  border-radius: 10rem; }
