@@ -1,3 +1,55 @@
+
+/* Hex code of color used was  #55A8AE; */
+/* The Logo is hand drawn */
+/* All other resources should be downloaded on your own */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+ */
+ /* font-family: Ubuntu,
+sans-serif;
+font-family: Lora,
+serif; */
+body {
+  background-color: white;
+  margin: 0px;
+}
+h1{
+  padding: 20px;
+  color: #55A8AE;
+  text-align: center;
+  font-family: Ubuntu;
+}
+.section1{
+  background-color: ghostwhite;
+  padding: 0px;
+  margin 0 0 auto;
+  font-weight: bold;
+}
+button{
+  background-color:#55A8AE;
+  color: #fff;
+  padding: 20px 20px white;
+  margin:0px 0px #55A8AE;
+  float: right;
+}
+h1 p {text-align: center;
+}
+#date{
+  background-color: white;
+  color: black;
+  
+}
+. images {
+  display:flex;
+  flex-direction: row;
+}
+#select-button{
+  background-color: white;
+  color: black;
+}
+p {
+  font-family:Sans-Serif;
+}
+
 /* Hex code of color used was  #55A8AE; */
 /* The Logo is hand drawn */
 /* All other resources should be downloaded on your own */
@@ -175,7 +227,7 @@ serif; */
         display: none;
     }
 } 
-=======
+
 /*== General ==*/
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
@@ -222,4 +274,5 @@ body{
 i.icon-location, i.icon-phone, i.icon-mail {
     padding-top: 5px;
 }
+
 
