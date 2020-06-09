@@ -153,6 +153,19 @@ Media query for offer section */
     .facContentWrapper p {
         font-size: 30px;
     }
+    .testiHeader {
+        font-size: 30px;
+    }
 }
 
-  
+   /* TESTIMONEY */
+
+   .testiHeader {
+       color: #55A8AE;
+   }
+
+   .testiName {
+       font-style: italic;
+       font-weight: bold;
+       font-size: 16px;
+   }
