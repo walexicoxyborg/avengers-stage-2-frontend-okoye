@@ -1,9 +1,151 @@
-/* Hex code of color used was  #55A8AE; */
-/* The Logo is hand drawn */
-/* All other resources should be downloaded on your own */
-/* @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
- */
- /* font-family: Ubuntu,
-sans-serif;
-font-family: Lora,
-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+* {box-sizing: border-box}
+body{
+  font-family: Ubuntu, sans-serif;
+  font-family: Lora, serif;
+  margin: 0;
+}
+
+.container, .row{
+  margin: 0;
+}
+.logo{
+  margin-left: 5px;
+}
+
+header {
+  background: #55A8AE;
+  color: white;
+  padding: 10px 0;
+}
+
+header ul{
+  list-style: none;
+}
+header li{
+  display: inline-block;
+  margin-right: 15px;
+}
+header .menu-icon{
+  display: none;
+} 
+
+.mySlides {
+  display: none;
+  position: relative;
+  background-image: url("Resources/5.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.myslides2{
+  background-image: url("Resources/7.jpg");
+
+}
+.myslides3{
+  background-image: url("Resources/unsplash-bed1.png");
+
+}
+.myslides4{
+  background-image: url("Resources/unsplash-bed2.png");
+
+}
+
+.header{
+  text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+.anchor:hover{
+  text-decoration: none;
+  color: white;
+}
+.buttons:hover{
+  background-color: rgba(0,0,0,0.8);
+
+}
+/* Caption text */
+.text {
+  color: white;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+}
+.buttons{
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+  border-radius: 15px;
+  border: 0px;
+  border-color: rgb(121, 163, 160);
+  width: 110px;
+  height: 40px;
+  background-color: rgb(121, 163, 160);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(250, 252, 252);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.icon{
+  position: absolute; 
+  bottom: 10%;
+  left: 46%;
+}
+.active {
+  background-color: #717171;
+}
+.dot:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 460px) {
+  .buttons{height: 30px; width: 80px}
+  h1{ font-size: 20px; }
+  a{font-size: 10px;}
+  .icon{left: 42%;}
+  .mySlides{ height: 250px; }
+  .buttons{left: 45%;}
+}
+
