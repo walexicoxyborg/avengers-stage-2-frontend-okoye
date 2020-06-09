@@ -7,3 +7,65 @@
 sans-serif;
 font-family: Lora,
 serif; */
+.h1{
+    color: #55A8AE;
+    text-align: center;
+    font-family: sans-serif;
+}
+.facilities{
+    background: url(Resources/beige-concrete-building-3126553.jpg) no-repeat;
+    background-size: cover;
+    height: 800px;
+    min-height: 500px;
+    margin-top: 5%;
+}
+.col-0{
+    text-align: center;
+    height: 70%;
+    padding-top: 6%;
+    margin-left: 10%;
+}
+.col-1{
+    display: flex;
+}
+.col-2{
+    display: flex;
+    margin-top: 6%;
+}
+.text{
+    display: flex;
+    margin-left: 7%;
+}
+.text-2{
+    display: flex;
+    margin-left: 2%;
+}
+img{
+    margin-right: 10%;
+    display: block;
+    max-width: 100%;
+    text-align: center;
+}
+.img{
+    filter: invert(100%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(100) contrast(100%);
+}
+.c{
+    filter: brightness(0) invert(1);
+}
+.p-p, .p-b, .p-r, .p-s, .p-c, .p-w{
+    color: white;
+    font-size: 30pt;
+    font-family: sans-serif;
+}
+.p-r{
+    margin-left: 27%;
+}
+.p-p{
+    margin-left: 28%;
+}
+.p-c{
+    margin-left: 20%;
+}
+.p-w{
+    margin-left: 27%;
+}
