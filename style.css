@@ -7,3 +7,50 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
+/*== General ==*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
+@import 'font.css';
+
+body{
+ font-family: "Ubuntu", "sans-serif";
+}
+
+
+/*== nav section ==*/
+.nav-bluish{
+	background: #55A8AE;
+	font-size: 18px;
+}
+
+.nav-logo-size{
+	height:60px;
+	width: 60px;
+}
+
+
+/*== Footer section ==*/
+.bluish{
+	background: #55A8AE;
+	font-size: 12px;
+}
+
+.logo-size{
+	height:60px;
+	width:100px;
+	padding-left:40px;
+}
+
+.padding-left{
+	margin-left:40px;
+}
+
+
+.no-bullet{
+	list-style-type: none;
+}
+
+i.icon-location, i.icon-phone, i.icon-mail {
+    padding-top: 5px;
+}
