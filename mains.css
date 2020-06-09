@@ -11,6 +11,7 @@ html, body{
 }
 .logo-container  {
     padding-right: 5em;
+    padding-left: 2em;
     height:100%;
     display: table;
     float: left ;
@@ -112,7 +113,13 @@ section  {
     list-style: none;
     
 }
+.logo-text{
+    margin-left: 1em;
+}
 
+.now {
+    margin-left: -1em;
+}
 .contact {
     font-size: .83em;
 }
