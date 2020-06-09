@@ -1,0 +1,64 @@
+.footer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: $color-primary;
+  color: $color-white;
+  padding: 2rem 3rem;
+
+
+  &-link{
+    &:hover{
+      transform: translateY(-0.1rem);
+      border-bottom: 1px solid rgba(255,255,255,0.5)
+    }
+  }
+
+  &-body-logo{
+    clear: none;
+  }
+  &-body-text {
+    margin-left: 1rem;
+  }
+
+  &_booking{
+      order: 1;
+  }
+  &-care{
+    order: 2;
+  }
+  &-facilities{
+    order: 3;
+  }
+
+  &-contact{
+    display: block;
+    &__social{
+      display: inline-block;
+      margin: 0.5rem;
+      max-width: 2.5rem;
+    }
+  }
+}
+.footer-group {
+  width: 19rem;
+  margin-top: 1rem;
+  padding: 1rem 0;
+
+  &__head {
+    text-transform: Uppercase;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+  }
+
+  &__body {
+    font-size: 0.9rem;
+
+    &--item {
+      list-style-type: none;
+      display: flex;
+      margin-bottom: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.home{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background-image: url(../Resources/unsplash-bed1.png);
+  background-color: rgba($color-primary, 0.1);
+  background-size: auto 120%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  &__items{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+    &--text{
+      color: $color-white;
+      font-size: 1.25rem;
+      line-height: 3rem;
+      word-spacing: 2px;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      @include respond(tab-land){
+        font-size: 1.05rem;
+        line-height: 2rem;
+        word-spacing: 1.5px;
+      }
+      @include respond(tab-port){
+        font-size: 0.8rem;
+        line-height: 2rem;
+        word-spacing: 1px;
+      }
+    }
+  }
+}
+.btn{
+  padding: 0.5rem 3rem;
+  background-color: $color-primary;
+  color: $color-white;
+  border: none;
+  text-transform: uppercase;
+  @include respond(tab-port){
+    padding: 0.5rem 2rem;
+  }
+  &:hover{
+    transform: translateY(-0.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .20);
+  }
+}
+.btn--rounded{
+  border-radius: 10rem;
+}
