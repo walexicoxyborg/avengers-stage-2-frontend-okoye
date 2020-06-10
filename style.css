@@ -7,6 +7,7 @@
 sans-serif;
 font-family: Lora,
 serif; */
+
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu&display=swap");
 
 body{
@@ -132,3 +133,82 @@ body{
     background-color: #111111;
   } 
   
+=======
+
+
+/* Contact Us Section */
+
+#contact {
+    background-color: #F1F2F2;
+    position: relative;
+}
+
+.contact-us {
+    background-color: #F1F2F2;
+    width: 100%;
+    float: left;
+    clear: none;
+    position: relative;
+    padding: 0 60px;
+}
+
+.contact-img {
+    display: inline-block;
+    height: 600px;
+    padding: 70px 0 70px 50px;
+}
+
+.contact-form {
+    background-color: #55A8AE;
+    font-family: "Montserrat";
+    display: inline-block;
+    position: absolute;
+    width: 600px;
+    height: 330px;
+    padding: 70px 0 70px 20px;
+    margin-top: 70px;
+}
+
+.contact-text {
+    padding-left: 630px;
+    position: absolute;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 70px;
+    display: flex;
+    font-style: normal;
+    margin-top: 0;
+    color: #55A8AE;
+}
+
+#form-name {
+    margin: 0 40px 30px 50px;
+    padding-left: 20px;
+    width: 470px;
+    height: 46px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+#form-comments {
+    margin: 35px 40px 30px 50px;
+    padding-left: 20px;
+    width: 447px;
+    height: 76px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.form-button {
+    margin: 35px 40px 30px 50px;
+    text-align: center;
+    padding-left: 20px;
+    width: 470px;
+    height: 46px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+}
